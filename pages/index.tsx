@@ -22,12 +22,12 @@ export default function Home() {
         <div className={styles.Logo}>
           <Image src="/Logo blanco.png" alt="Logo" fill />
         </div>
-        <div className={styles.paragraph}></div>
+        <div className={styles.paragraph}><b>Now your dream job</b> is the world</div>
           <Login></Login>
       </div>
        
        <div className={styles.right}>
-        <Image src="/next.svg" alt="test" fill></Image>
+        <Image src="/azulito4.jpg" alt="test" fill></Image>
        </div>
       </main>
     </>
