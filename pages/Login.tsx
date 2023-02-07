@@ -6,17 +6,22 @@ function Login() {
   return (
     <div>
         <form className={styles.login}>
-            <label>
+            <strong className={styles.loginLogo}>
                 Log In
-            </label>
+            </strong>
             <input type="text" name="Email" placeholder='Email' />
             <input type="password" name="Password" placeholder='Password' />
+            
             <div className={styles.container}> 
-              
-      
-            <input className={styles.checkbox} type="checkbox" value="Keep me signed in" id='checkbox'/> <label htmlFor="checkbox">Keep me signed in</label>
+              <input className={styles.checkbox} type="checkbox" value="Keep me signed in" id='checkbox'/> <label htmlFor="checkbox">Keep me signed in</label>
             </div>
-            <input type="submit" value="Log In" />
+            <div className={styles.containerButton}>
+              <input type="submit" value="Log In" />
+            </div>
+
+            <div className={styles.containerForgot}>
+              <a> Forgot Password ?</a>
+            </div>
             
 
         </form>
