@@ -11,11 +11,12 @@ function Login() {
                 Log In
             </strong>
             <input type="text" name="Email" placeholder='Email' required/>
-            <input type={isVisible ? "password" : "text"} name="Password" placeholder='Password'required/>
-            <button onClick={(event)=> {
+            <div className={styles.inputArea}><input type={isVisible ? "password" : "text"} name="Password" placeholder='Password'required/>
+            <i className={styles.iconEyePassword +' fa fa-eye'} onClick={(event)=> {
               event.preventDefault()
               setIsVisible(!isVisible)
-              }}>Show</button>
+              }}></i></div>
+            
             
             <div className={styles.container}> 
               <input className={styles.checkbox} type="checkbox" value="Keep me signed in" id='checkbox'/> <label htmlFor="checkbox">Keep me signed in</label>

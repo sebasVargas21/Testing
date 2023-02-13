@@ -120,3 +120,22 @@
   font-size: 30px;
   padding-left: 2%;
 }
+.inputArea{
+  display: inline-block;
+  position: relative;
+ 
+ 
+
+}
+.inputArea input {
+padding: 10px 5px;
+
+}
+.iconEyePassword {
+  position: absolute;
+  top: 16px;
+  right: 10px;
+  width: 24px;
+  cursor: pointer
+
+}
