@@ -128,14 +128,18 @@
 
 }
 .inputArea input {
-padding: 10px 5px;
-
+  padding: 10px;
 }
+
+.inputArea i{
+  color: gray;
+}
+
 .iconEyePassword {
   position: absolute;
   top: 16px;
   right: 10px;
   width: 24px;
   cursor: pointer
-
 }
+
