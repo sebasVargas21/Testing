@@ -1,0 +1,48 @@
+.sideBarStyle {
+   padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    list-style: none;
+    margin: 8% 2%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+  
+  .sideBarStyle:hover {
+    background-color: #404b69;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 4.5%;
+    background-color: #f7fafd;
+  }
+  
+  .logo img {
+    max-width: 120px;
+    max-height: 60px;
+    margin-left: 2.25%;
+  }
+  .ulStyle {
+    list-style-type: none;
+    padding: 20px;
+    margin-left: 20px;
+  }
+
+  .dropDown {
+    display: none;
+    margin-left: 90%;
+  }
+  .sidebarContainer {
+    height: 90vh;
+    max-height: 100%;
+    /* display: inline-block; */
+    width: 17%;
+    background-color: #072448;
+  }
